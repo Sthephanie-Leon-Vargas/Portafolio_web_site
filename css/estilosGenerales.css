@@ -1,0 +1,276 @@
+h1,h2 { 
+
+    color: #00e2ff;
+}
+
+h1,h2,h3,a,li,span,button{
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+ body,p,a{
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+/* apartados-secciones del one page*/
+section {
+    padding: 100px 0;
+    background-color: #143447;
+    color: white;
+  }
+
+/* barra de navegacion menu */
+  nav {
+  /*background: linear-gradient(to bottom, #143447,#07a1ff , #00e2ff);*/ /* Cambiá colores si querés */
+  background-color: #0f2532
+}
+.navbar-brand img {
+  border-radius: 8px;
+  }
+  #opcion_menu{
+      color:#00e2ff;
+  }
+
+/* estilos barra de navegacion*/
+.navbar-nav .nav-link:hover::after {
+    width: 100%;
+    }
+    
+    /* Activo (permanece subrayado) */
+    .navbar-nav .nav-link.active {
+    color: #07a1ff;
+    }
+    
+    .navbar-nav .nav-link.active::after {
+    width: 100%;
+    }
+
+/* Switch Idioma del sitio */
+.switch-idioma {
+position: relative;
+display: inline-block;
+width: 50px;
+height: 25px;
+}
+
+.switch-idioma input {
+opacity: 0;
+width: 0;
+height: 0;
+}
+
+.slider {
+position: absolute;
+cursor: pointer;
+background-color: #07a1ff  ;
+border-color: #00e2ff;
+border-radius: 25px;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+transition: 0.4s;
+}
+
+/* Círculo del switch */
+.slider::before {
+position: absolute;
+content: "";
+height: 20px;
+width: 20px;
+left: 3px;
+bottom: 2.5px;
+background-color: #fff;
+border-color: #00e2ff;
+border-radius: 50%;
+transition: 0.4s;
+}
+
+/* Activado (switch encendido) */
+.switch-idioma input:checked + .slider {
+background-color: #00e2ff;
+}
+
+/* Mueve el círculo a la derecha */
+.switch-idioma input:checked + .slider::before {
+transform: translateX(24px);
+}
+
+/*Cards Valores Personales*/
+.card{
+
+    background-color: #143447;
+    color: #fff;
+    border-color: #07a1ff;
+}
+
+.navbar-nav .nav-link {
+    position: relative;
+    transition: color 0.3s ease;
+    color: #fff; /* color base */
+  }
+  
+  .navbar-nav .nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background-color: #07a1ff; /* subrayado */
+    transition: width 0.3s ease;
+  }
+  #div_perfil{
+
+    padding: 85px;
+}
+/*
+
+.banner{
+background: linear-gradient(to bottom, #00e2ff); 
+color: #143447;
+}
+#titulo_banner{
+
+    color: #143447;
+}
+*/
+
+/* Estilo para el banner */
+.banner {
+    /*background-image:url('../imagenes/slogan_banner.png');*/ /* Cambia esta URL por la tuya */
+    background-size: cover; /* Hace que la imagen cubra todo el banner */
+    background-position: center center; /* Centra la imagen */
+    padding: 90px 0; /* Espacio superior e inferior */
+    color: white; /* Color del texto */
+    background: #0f2532;
+    background-attachment: fixed; /* Hace que la imagen se quede fija al hacer scroll */
+  }
+
+.btn{
+    background-color: #0f2532;
+    color: #fff;
+    border-color: #07a1ff;
+}
+.btn:hover{
+
+    background-color: #07a1ff;
+    color: #0f2532;
+}
+
+
+/*animacion en titulo bienvenidos banner*/
+.float-bienvenidos {
+    display: inline-block;
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  /* Animación */
+  @keyframes float {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-15px); }
+    100% { transform: translateY(0); }
+  }
+  .float-bienvenidos {
+    display: inline-block;
+    animation: float 3s ease-in-out infinite;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+    color: #00e2ff; /* Asegúrate de que contraste con el fondo */
+  }
+
+  .tab_perfil {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tab_perfil:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+
+
+  .custom-input {
+    background-color: #143447;
+    border: 1px solid #07a1ff;
+    border-radius: 8px;
+    padding: 10px;
+    color: #00e2ff;
+    font-family: 'Roboto', sans-serif;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .custom-input:focus {
+    font-family: 'Roboto', sans-serif;
+    border-color: #00e2ff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+    background-color: #0f2532;
+    color: #00e2ff;
+  }
+  
+  .contact-form-container {
+    background: #0f2532;
+  }
+  .container_formulario{
+
+    background-color: #0f2532;
+  }
+
+  .custom-input::placeholder {
+    color: #ffffffa4; /* gris Bootstrap */
+    opacity: 1;     /* aseguramos que no sea transparente */
+    font-style: italic;
+  }
+
+  input:-webkit-autofill,
+  textarea:-webkit-autofill {
+    background-color: #143447 ;  /* tu color personalizado */
+    -webkit-box-shadow: 0 0 0px 1000px #143447 inset !important;
+    -webkit-text-fill-color: #00e2ff !important;  /* color del texto */
+    transition: background-color 5000s ease-in-out 0s;
+  }
+
+  /*iconos*/
+  .icono {
+    color: #00e2ff; /* rosa fuerte por ejemplo */
+    font-size: 1.5rem; /* tamaño opcional */
+  }
+
+a{
+
+  color: #fff;
+}
+
+.h3_info-contacto{
+
+  color: #00e2ff;
+}
+
+/*#Contacto{
+   background: #0f2532;
+}*/
+
+/*boton de whatsapp*/
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color:#07a1ff;/* #25D366;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+}
+
+/*Estilos al icono de whatsapp*/
+.whatsapp-btn i {
+  color: #fff;
+  font-size: 27px;
+  text-decoration: none;
+}

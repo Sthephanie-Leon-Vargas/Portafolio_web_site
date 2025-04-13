@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="favicon.png" rel="icon">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="css/estilosGenerales.css" rel="stylesheet">
+    <link rel="icon" href="imagenes/imagenWeb/favicon_transparente.png" type="image/x-icon">
+    <title>Portafolio Web - Sthephanie Leon Vargas</title>
+</head>
+<body>
+    
+
+   
+ <!-- Navbar Menu -->
+ <nav class="navbar navbar-expand-lg fixed-top ">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="imagenes/imagenWeb/Logo_borde.png" alt="Logo" width="45" height="45" class="me-2">
+        <span id="opcion_menu"></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#Perfil" id="opcion_menu">Mi Perfil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Habilidades" id="opcion_menu">Habilidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Proyectos" id="opcion_menu">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Contacto" id="opcion_menu">Contactos</a></li>
+        </ul>
+        <button type="button" class="btn" data-toggle="button">
+          Descargar CV
+        </button>
+         <!-- Switch de idioma a la derecha 
+      <div class="form-check form-switch ms-auto">
+        <input class="form-check-input" type="checkbox" id="idiomaSwitch">
+        <label class="form-check-label" for="idiomaSwitch" id="opcion_menu">ES / EN</label>
+      </div>-->
+     
+<!-- Contenedor del switch personalizado -->
+<label class="switch-idioma ms-auto">
+  <input type="checkbox" id="idiomaSwitch">
+  <span class="slider"></span>
+</label>
+<span class="ms-2" id="opcion_menu">ES - EN</span>
+
+    </div>
+  </div>
+</nav>
+
+
+<!-- banner y slogan-->
+  <section class="banner" id="banner">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Texto a la izquierda -->
+        <div class="col-md-6 text-white">
+          <h1 class="float-bienvenidos" id="titulo_banner">¡Bienvenidos!</h1>
+          <h3 id="titulo_banner">Soy Sthephanie León</h3>
+          <h3> Es un gusto que visites mi portafolio.</h3>
+          
+        
+        </div>
+        <!-- Imagen a la derecha -->
+        <div class="col-md-6 text-center">
+          <img src="imagenes/slogan_banner01.png" alt="slogan" class="img-fluid banner-img" style="width: 40%; height: 40%;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Perfil -->
+  <section id="Perfil" class="text-center" >
+
+
+    <div class="container mt-5">
+      <div class="row align-items-center">
+
+                <!-- Imagen a la izq-->
+               
+        <!-- Imagen a la derecha -->
+   
+
+        <div class="col-md-6 d-flex justify-content-center ">
+          <div class="card tab_perfil" style="width: 25rem; box-shadow: 0 25px 35px rgba(0, 0, 0, 0.2); border: none;">
+            <img src="imagenes/Stephanie León (3).png" class="card-img-top img-fluid" alt="Foto de perfil">
+            <div class="card-body text-center">
+              <h1>Perfil Profesional</h1>
+              <p>Desarrolladora de aplicaciones de escritorio y web, especializada en el desarrollo 
+               Full-Stack, con experiencia en lenguajes como Java, C#, CSS, HTML, JavaScript, 
+               manejo de bases de datos relacionales Oracle, Sql Server y MySQL, incorporando 
+               modelos de arquitectura como MVC.</p>
+            </div>
+          </div>
+        </div>
+
+      <!-- Párrafos al lado del card -->
+      <div class="col-md-5">
+      
+        <h2>Misión</h2>
+        <p class="tab_perfil">Satisfacer las necesidades de los usuarios,
+          creando aplicaciones eficientes que faciliten las tareas dentro de la empresa, 
+          creando así un impacto positivo en la mejora e innovación de los procesos requeridos.</p>
+        <br>
+          <h2>Visión</h2>
+        <p class="tab_perfil">Demostrar mi pasión por implementar nuevas ideas en base a flujos de trabajo que pueda 
+          necesitar la empresa, llevando a cabo el desarrollo y administración de proyectos nuevos.</p>
+      </div>
+
+      </div>
+    </div>
+
+
+
+    <div class="container" style="padding-top: 75px;">
+      <h1>Valores Personales</h1>
+      <p>A continuación, describo los valores que me identifican como persona.</p>
+    </div>
+
+    <div class="container my-5">
+      <div class="d-flex justify-content-center flex-wrap gap-4">
+    
+        <div class="card tab_perfil" style="width: 18rem;">
+          <div class="card-body text-center">
+            <h5 class="card-title">
+              <i class="me-2"></i>Lealtad
+            </h5>
+            <p class="card-text">Mantengo la confianza y discreción con mis compañeros de trabajo.</p>
+          </div>
+        </div>
+        <div class="card tab_perfil" style="width: 18rem;">
+          <div class="card-body text-center">
+            <h5 class="card-title">
+              <i class="me-2"></i>Honestidad
+            </h5>
+            <p class="card-text"> Me comprometo a siempre decir la verdad para establecer confianza con quienes me rodean.</p>
+          </div>
+        </div>
+        <div class="card tab_perfil" style="width: 18rem;">
+          <div class="card-body text-center">
+            <h5 class="card-title">
+              <i class="me-2"></i>Humildad
+            </h5>
+            <p class="card-text"> Reconozco mis errores y acepto las retroalimentaciones que me puedan dar,para mejorar cada día.</p>
+          </div>
+        </div>
+        <div class="card tab_perfil" style="width: 18rem;">
+          <div class="card-body text-center">
+            <h5 class="card-title">
+              <i class="me-2"></i>Perseverancia
+            </h5>
+            <p class="card-text">Cumplir con los trabajos propuestos, incluso cuando hayan obstáculos en el camino o retos nuevos, siempre estoy dispuesta a seguir hasta el final para cumplir los objetivos. </p>
+          </div>
+        </div>
+        <div class="card tab_perfil" style="width: 18rem;">
+          <div class="card-body text-center">
+            <h5 class="card-title">
+              <i class="me-2"></i>Respeto
+            </h5>
+            <p class="card-text"> Mantener el respeto con todas las personas por igual, creando un espacio de trabajo positivo y en el que todos nos sentimos cómodos como equipo.</p>
+          </div>
+        </div>
+
+        
+
+  </section>
+
+<!-- Habilidades-->
+  <section id="Habilidades" class="text-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="200">
+      <h1>Habilidades</h1>
+      <p></p>
+    </div>
+  </section>
+
+<!-- galeria de proyectos -->
+  <section id="Proyectos" class="text-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="200">
+      <h1>Proyectos</h1>
+      <p></p>
+    </div>
+  </section>
+
+  <!-- Medios de contactos-->
+  <section id="Contacto" class="text-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="200">
+      <h1>Contactos</h1>
+      <p>¡Puedes contactame llenando el siguiente formulario o visitando los enlaces!</p>
+      <div class="container my-5 container_formulario">
+        <div class="row shadow p-4 rounded">
+          
+          
+          <div class="col-md-6 mb-4 ">
+     
+            <form id="contacto_form">
+              <img src="imagenes/Mailbox-rafiki.svg" alt="slogan" class="img-fluid banner-img" style="width: 45%; height: 45%;">
+              <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" name="form_nombre" class="form-control custom-input" placeholder="Indica tu nombre completo">
+              </div>
+              <div class="mb-3">
+                <label for="nombre" class="form-label">Correo Electrónico</label>
+                <input type="email" name="form_correo" class="form-control custom-input" placeholder="ej: tucorreo@gmail.com">
+              </div>
+              <div class="mb-3">
+                <label for="nombre" class="form-label">Comentarios</label>
+                <textarea class="form-control custom-input" name="form_mensaje" rows="4" placeholder="Escribe lo que piensas..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+          
+
+        
+
+          <div class="col-md-6 d-flex flex-column justify-content-center ps-md-5">
+            <h3 class="mb-3 h3_info-contacto">Información adicional de contacto:</h3>
+            <p><i class="bi bi-geo-alt me-2 icono"></i> Heredia, San Francisco Santa Cecilia, Costa Rica</p>
+            <p><i class="bi bi-phone me-2 icono"></i> +506 86028795</p>
+            <p><i class="bi bi-envelope-at-fill me-2 icono"></i> stephy44zzz@gmail.com</p>
+            <br>
+            <h3 class="mb-3 h3_info-contacto">Enlaces:</h3>
+            <p><i class="bi bi-linkedin me-2 icono"></i><a href="https://www.linkedin.com/in/sthephanie-le%C3%B3n-vargas-9a8711352/"target="_blank">Linkedin</a></p>
+            <p><i class="bi bi-github me-2 icono"></i><a href="https://github.com/Sthephanie-Leon-Vargas"target="_blank">Github</a></p>
+         
+          </div>
+      
+        </div>
+      </div>
+
+
+  </section>
+
+  <a href="https://walink.co/d842b5" target=”_blank” class="whatsapp-btn">
+    <i class="bi bi-whatsapp"></i>
+  </a>
+
+  <!-- Bootstrap JS -->
+  <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- carga del framework -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- libreria animacion web -->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@0.3.0/dist/lottie-player.js"></script>
+
+  <!-- interactividad lottie usando eventos -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.13/lottie.min.js"></script> 
+
+  <!--AOS para animacion con Scroll -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+<script src="js/idioma.js"></script>
+<script src="js/controladorEfectos.js"></script>
+
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script src="js/ControladorContacto.js"></script>
+
+</body>
+
+</html>
