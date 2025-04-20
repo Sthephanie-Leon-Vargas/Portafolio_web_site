@@ -43,3 +43,18 @@ function scrollToTop() {
     behavior: "smooth"
   });
 }
+
+//Descarga de CV
+const checkboxIdioma = document.getElementById("idiomaSwitch");
+const btnDescarga = document.getElementById("descargaCV");
+
+checkboxIdioma.addEventListener("change", function () {
+  if (!checkboxIdioma.checked) {
+   
+    btnDescarga.href = "cv/CV_Espanol_SthephanieLeonVargas.pdf";
+    btnDescarga.textContent = " CV-ES";
+  } else {
+    btnDescarga.href = "cv/CV_Ingles_SthephanieLeonVargas.pdf";
+    btnDescarga.textContent = " CV-EN";
+  }
+});

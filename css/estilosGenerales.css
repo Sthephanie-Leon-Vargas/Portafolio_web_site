@@ -102,7 +102,7 @@ transform: translateX(24px);
 
     background-color: #143447;
     color: #fff;
-    border-color: #07a1ff;
+   border-color: #0f2532;
 }
 
 .navbar-nav .nav-link {
@@ -191,7 +191,7 @@ color: #143447;
   }
   
 
-
+/*Seccion contacto*/
   .custom-input {
     background-color: #143447;
     border: 1px solid #07a1ff;
@@ -297,4 +297,3 @@ a{
   align-items: center;
   justify-content: center;
 }
-
