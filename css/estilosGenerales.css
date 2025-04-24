@@ -179,13 +179,13 @@ color: #143447;
     color: #00e2ff; /* Asegúrate de que contraste con el fondo */
   }
 
-  .tab_perfil {
+  .tab_perfil,.tab_proyectos {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
   
-  .tab_perfil:hover {
+  .tab_perfil:hover, .tab_proyectos:hover {
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   }
