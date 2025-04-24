@@ -27,6 +27,7 @@ sections.forEach(section => {
   observer.observe(section);
 });
 
+//Scroll Top
 window.onscroll = function () {
   let btn = document.getElementById("scrollTopBtn");
   if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
@@ -44,17 +45,20 @@ function scrollToTop() {
   });
 }
 
-//Descarga de CV
+//Descarga de CV y cambio de slogan a imagen en ingles
 const checkboxIdioma = document.getElementById("idiomaSwitch");
 const btnDescarga = document.getElementById("descargaCV");
+const languageImage = document.getElementById("img_slogan");
 
 checkboxIdioma.addEventListener("change", function () {
   if (!checkboxIdioma.checked) {
    
     btnDescarga.href = "cv/CV_Espanol_SthephanieLeonVargas.pdf";
     btnDescarga.textContent = " CV-ES";
+    languageImage.src = "imagenes/slogan_banner01.png";
   } else {
     btnDescarga.href = "cv/CV_Ingles_SthephanieLeonVargas.pdf";
     btnDescarga.textContent = " CV-EN";
+    languageImage.src = "imagenes/slogan_banner02_EN.png";
   }
 });

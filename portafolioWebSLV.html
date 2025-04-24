@@ -29,10 +29,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link Active" href="#Perfil" id="opcion_menu">Mi Perfil</a></li>
-          <li class="nav-item"><a class="nav-link" href="#Habilidades" id="opcion_menu">Habilidades</a></li>
-          <li class="nav-item"><a class="nav-link" href="#Proyectos" id="opcion_menu">Proyectos</a></li>
-          <li class="nav-item"><a class="nav-link" href="#Contacto" id="opcion_menu">Contactos</a></li>
+          <li class="nav-item"><a class="nav-link Active" href="#Perfil" id="menu_perfil" >Mi Perfil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Habilidades" id="menu_habilidades">Habilidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Proyectos" id="menu_protectos">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Contacto" id="menu_contactos">Contactos</a></li>
         </ul>
         
         <a id="descargaCV" href="cv/CV_Espanol_SthephanieLeonVargas.pdf" download class="btn bi bi-filetype-pdf">
@@ -49,7 +49,7 @@
   <input type="checkbox" id="idiomaSwitch">
   <span class="slider"></span>
 </label>
-<span class="ms-2" id="opcion_menu">ES - EN</span>
+<span class="ms-2" id="txtSwitch">ES - EN</span>
 
     </div>
   </div>
@@ -62,12 +62,12 @@
         <!-- Texto a la izquierda -->
         <div class="col-md-6 text-white">
           <h1 class="float-bienvenidos" id="titulo_banner">¡Bienvenidos!</h1>
-          <h3 id="titulo_banner">Soy Sthephanie León</h3>
-          <h3> Es un gusto que visites mi portafolio.</h3>
+          <h3 id="nombre">Soy Sthephanie León</h3>
+          <h3 id="saludo">Es un gusto que visites mi portafolio.</h3>
         </div>
         <!-- Imagen a la derecha -->
         <div class="col-md-6 text-center">
-          <img src="imagenes/slogan_banner01.png" alt="slogan" class="img-fluid banner-img" style="width: 40%; height: 40%;">
+          <img src="imagenes/slogan_banner01.png" alt="slogan" id="img_slogan" class="img-fluid banner-img" style="width: 40%; height: 40%;">
         <!--  <h3 id="animatedText"></h3> -->
         </div>
       </div>
@@ -83,8 +83,8 @@
           <div class="card tab_perfil" style="width: 25rem; box-shadow: 0 25px 35px rgba(0, 0, 0, 0.2); border: none;">
             <img src="imagenes/Stephanie León (3).png" class="card-img-top img-fluid" alt="Foto de perfil">
             <div class="card-body text-center">
-              <h1>Perfil Profesional</h1>
-              <p>Desarrolladora de aplicaciones de escritorio y web, especializada en el desarrollo 
+              <h1 id="perfilProfesionalTitulo">Perfil Profesional</h1>
+              <p id="perfilProfesional">Desarrolladora de aplicaciones de escritorio y web, especializada en el desarrollo 
                Full-Stack, con experiencia en lenguaje Java, 
                manejo de bases de datos relacionales como Oracle, Sql Server, MySQL,
                y creación de páginas con HTML y CSS.
@@ -96,13 +96,13 @@
       <!--Mision y Vision -->
       <div class="col-md-5">
       
-        <h2>Misión</h2>
-        <p class="tab_perfil">Satisfacer las necesidades de los usuarios,
+        <h2 id="misionTitulo">Misión</h2>
+        <p id="mision" class="tab_perfil">Satisfacer las necesidades de los usuarios,
           creando aplicaciones eficientes que faciliten las tareas dentro de la empresa, 
           creando así un impacto positivo en la mejora e innovación de los procesos requeridos.</p>
         <br>
-          <h2>Visión</h2>
-        <p class="tab_perfil">Demostrar mi pasión por implementar nuevas ideas en base a flujos de trabajo que pueda 
+          <h2 id="visionTitulo">Visión</h2>
+        <p id="vision" class="tab_perfil">Demostrar mi pasión por implementar nuevas ideas en base a flujos de trabajo que pueda 
           necesitar la empresa, llevando a cabo el desarrollo y administración de proyectos nuevos.</p>
       </div>
 
@@ -111,8 +111,8 @@
 
  <!-- Mis Valores-->
     <div class="container" style="padding-top: 75px;">
-      <h1>Valores Personales</h1>
-      <p>A continuación, describo los valores que me identifican como persona.</p>
+      <h1 id="valoresTitulo">Valores Personales</h1>
+      <p id="valoresDesc">A continuación, describo los valores que me identifican como persona.</p>
     </div>
     <div class="container my-5">
       <div class="d-flex justify-content-center flex-wrap gap-4">
@@ -120,41 +120,41 @@
         <div class="card tab_perfil" style="width: 18rem;">
           <div class="card-body text-center">
             <h5 class="card-title">
-              <i class="me-2 bi bi-shield-lock-fill fs-1 text-primary"></i>Lealtad
+              <i class="me-2 bi bi-shield-lock-fill fs-1 text-primary"></i><h5 id="lealtadTitulo">Lealtad</h5>
             </h5>
-            <p class="card-text">Mantengo la confianza y discreción con mis compañeros de trabajo.</p>
+            <p id="lealtad" class="card-text">Mantengo la confianza y discreción con mis compañeros de trabajo.</p>
           </div>
         </div>
         <div class="card tab_perfil" style="width: 18rem;">
           <div class="card-body text-center">
             <h5 class="card-title">
-              <i class="me-2 bi bi-check2-circle fs-1 text-success"></i>Honestidad
+              <i class="me-2 bi bi-check2-circle fs-1 text-success"></i> <h5 id="honestidadTitulo">Honestidad</h5>
             </h5>
-            <p class="card-text"> Me comprometo a siempre decir la verdad para establecer confianza con quienes me rodean.</p>
+            <p id="honestidad" class="card-text"> Me comprometo a siempre decir la verdad para establecer confianza con quienes me rodean.</p>
           </div>
         </div>
         <div class="card tab_perfil" style="width: 18rem;">
           <div class="card-body text-center">
             <h5 class="card-title">
-              <i class="me-2 bi bi-person-fill-down fs-1 text-secondary"></i>Humildad
+              <i class="me-2 bi bi-person-fill-down fs-1 text-secondary"></i> <h5 id="humildadTitulo">Humildad</h5>
             </h5>
-            <p class="card-text"> Reconozco mis errores y acepto las retroalimentaciones que me puedan dar, para mejorar cada día.</p>
+            <p id="humildad" class="card-text"> Reconozco mis errores y acepto las retroalimentaciones que me puedan dar, para mejorar cada día.</p>
           </div>
         </div>
         <div class="card tab_perfil" style="width: 18rem;">
           <div class="card-body text-center">
             <h5 class="card-title">
-              <i class="me-2 bi bi-hourglass-split fs-1 text-warning"></i>Perseverancia
+              <i class="me-2 bi bi-hourglass-split fs-1 text-warning"></i><h5 id="perseveranciaTitulo">Perseverancia</h5>
             </h5>
-            <p class="card-text">Cumplir con los trabajos propuestos, incluso cuando hayan obstáculos en el camino o retos nuevos, siempre estoy dispuesta a seguir hasta el final para cumplir los objetivos. </p>
+            <p id="perseverancia" class="card-text">Cumplir con los trabajos propuestos, incluso cuando hayan obstáculos en el camino o retos nuevos, siempre estoy dispuesta a seguir hasta el final para cumplir los objetivos. </p>
           </div>
         </div>
         <div class="card tab_perfil" style="width: 18rem;">
           <div class="card-body text-center">
             <h5 class="card-title">
-              <i class="me-2 bi bi-people-fill fs-1 text-info"></i>Respeto
+              <i class="me-2 bi bi-people-fill fs-1 text-info"></i><h5 id="respetoTitulo">Respeto</h5>
             </h5>
-            <p class="card-text"> Mantener el respeto con todas las personas por igual, creando un espacio de trabajo positivo y en el que todos nos sentimos cómodos como equipo.</p>
+            <p id="respeto" class="card-text"> Mantener el respeto con todas las personas por igual, creando un espacio de trabajo positivo y en el que todos nos sentimos cómodos como equipo.</p>
           </div>
         </div>
 
@@ -165,18 +165,18 @@
 <!-- Habilidades-->
   <section id="Habilidades" class="text-center" style="background-color: #0f2532;">
     <div class="container" data-aos="zoom-in" data-aos-delay="200">
-      <h1>Habilidades</h1>
-      <p>En esta sección puedes ver mis habilidades blandas y tecnicas que me caracterizan
+      <h1 id="habilidadesTitulo">Habilidades</h1>
+      <p id="habilidadesDesc">En esta sección puedes ver mis habilidades blandas y tecnicas que me caracterizan
        e implemento en mi día a día. 
       </p>
 
-      <h4  style="padding-top: 3%;">Habilidades Blandas</h4>
+      <h4 id="habilidadesBlandasT" style="padding-top: 3%;">Habilidades Blandas</h4>
       <div class="container my-5">
         <div class="d-flex justify-content-center flex-wrap gap-4">
       
           <div class="card tab_perfil" style="width: 18rem;">
             <div class="card-body text-center">
-              <h5 class="card-title">
+              <h5 id="comunicacion" class="card-title">
                 <i class="me-2"></i>Comunicación
               </h5>
               <img src="imagenes/habilidadesBlandas/comunicacion.png" alt="Comunicación">
@@ -184,7 +184,7 @@
           </div>
           <div class="card tab_perfil" style="width: 18rem;">
             <div class="card-body text-center">
-              <h5 class="card-title">
+              <h5 id="empatia" class="card-title">
                 <i class="me-2"></i>Empatía
               </h5>
               <img src="imagenes/habilidadesBlandas/empatia.png" alt="Empatía">
@@ -193,7 +193,7 @@
 
           <div class="card tab_perfil" style="width: 18rem;">
             <div class="card-body text-center">
-              <h5 class="card-title">
+              <h5 id="trabajoEquipo" class="card-title">
                 <i class="me-2"></i>Trabajo en Equipo
               </h5>
               <img src="imagenes/habilidadesBlandas/trabajo-en-equipo.png" alt="trabajo-en-equipo">
@@ -201,7 +201,7 @@
           </div>
           <div class="card tab_perfil" style="width: 18rem;">
             <div class="card-body text-center">
-              <h5 class="card-title">
+              <h5 id="toleancia" class="card-title">
                 <i class="me-2"></i>Tolerancia
               </h5>
               
@@ -214,7 +214,7 @@
 
 
 
-      <h4>Habilidades Técnicas</h4>
+      <h4 id="habilidadesTecnicasT">Habilidades Técnicas</h4>
       <div class="container my-5">
         <div class="d-flex justify-content-center flex-wrap gap-4">
       
@@ -267,8 +267,8 @@
 <!-- galeria de proyectos -->
   <section id="Proyectos" class="text-center">
     <div class="container" data-aos="zoom-in" data-aos-delay="200">
-      <h1>Proyectos</h1>
-      <p>En esta sección, puedes observar algunos de los proyectos que realizado en la univerdad
+      <h1 id="proyectosTitulo">Proyectos</h1>
+      <p id="proyectosDesc">En esta sección, puedes observar algunos de los proyectos que realizado en la univerdad
       algunos proyectos fueron realizados en equipo y otros de forma Individual.
       </p>
     </div>
@@ -279,7 +279,7 @@
         <div class="col-md-4">
           <div class="card h-100 shadow-lg custom-card">
             <div class="card-body">
-              <h5 class="card-title text-center">Aplicación de Escritorio</h5>
+              <h5 id="aplicacionEscritorio" class="card-title text-center">Aplicación de Escritorio</h5>
     
               <!-- Carrusel -->
               <div id="carousel1" class="carousel slide mb-3 custom-carousel" data-bs-ride="carousel">
@@ -306,8 +306,8 @@
               </div>
     
               <!-- Descripción -->
-              <h5 class=" text-center">Curso: Programación Orientada a Objetos</h5>
-              <p class="card-text">Sistema para el mantenimiento de un aeropuerto, en el cual se ingresa y
+              <h5 id="cursoPOO" class=" text-center">Curso: Programación Orientada a Objetos</h5>
+              <p id="cursoPOODesc" class="card-text">Sistema para el mantenimiento de un aeropuerto, en el cual se ingresa y
                 almacena la información referente a los vuelos.</p>
     
               <!-- Etiquetas -->
@@ -315,7 +315,7 @@
                 <span class="badge bg-primary">Java</span>
                 <span class="badge bg-success">UI Swing</span>
                 <span class="badge" style="background-color: #4479A1;">MySQL</span>
-                <span class="badge" style="background-color: #0f2532;">Proyecto Individual</span>
+                <span id="proyectoIndividual" class="badge" style="background-color: #0f2532;">Proyecto Individual</span>
               </div>
             </div>
           </div>
@@ -324,7 +324,7 @@
  <div class="col-md-4">
   <div class="card h-100 shadow-lg custom-card">
     <div class="card-body">
-      <h5 class="card-title text-center">Sitio Web</h5>
+      <h5 id="sitioWeb" class="card-title text-center">Sitio Web</h5>
 
       <!-- Carrusel -->
       <div id="carousel2" class="carousel slide mb-3 custom-carousel" data-bs-ride="carousel">
@@ -348,8 +348,8 @@
       </div>
 
       <!-- Descripción -->
-      <h5 class=" text-center">Curso: Proyecto de Ingieneria del Software 1</h5>
-      <p class="card-text">
+      <h5 id="CursoProyecto1" class=" text-center">Curso: Proyecto de Ingieneria del Software 1</h5>
+      <p id="proyecto1Desc" class="card-text">
       Sitio web para que los padres de familia puedan buscar el centro
       educativo ideal para sus hijos.
       </p>
@@ -361,7 +361,7 @@
         <span class="badge" style="background-color: #F7DF1E; color: black;">JavaScript</span>
         <span class="badge" style="background-color: #5FA04E;">Node JS</span>
         <span class="badge" style="background-color: #47A248;">MongoDB</span>
-        <span class="badge" style="background-color: #0f2532;">Proyecto Grupal</span>
+        <span id="proyectoGrupal2" class="badge" style="background-color: #0f2532;">Proyecto Grupal</span>
       </div>
     </div>
   </div>
@@ -374,7 +374,7 @@
  <div class="col-md-4">
   <div class="card h-100 shadow-lg custom-card">
     <div class="card-body">
-      <h5 class="card-title text-center">Video Juego 2D</h5>
+      <h5 id="videoJuego" class="card-title text-center">Video Juego 2D</h5>
 
       <!-- Carrusel -->
       <div id="carousel3" class="carousel slide mb-3 custom-carousel" data-bs-ride="carousel">
@@ -404,8 +404,8 @@
       </div>
 
       <!-- Descripción -->
-      <h5 class=" text-center">Curso: Programación con Patrones</h5>
-      <p class="card-text">
+      <h5 id="cursoPatrones" class=" text-center">Curso: Programación con Patrones</h5>
+      <p id="cursoPatronesDesc" class="card-text">
         Es un juego de sprites 2D, con temática de aventuras y plataformas, consiste en
         ganar los niveles de cada zona del mapa y derrotar a los enemigos que aparezcan.
       </p>
@@ -413,7 +413,7 @@
       <div class="d-flex flex-wrap gap-2">
         <span class="badge" style="background-color: #FFFFFF; color: black;">Unity</span>
         <span class="badge" style="background-color: #9B4F96;">C#</span>
-        <span class="badge" style="background-color: #0f2532;">Proyecto Grupal</span>
+        <span id="proyectoGrupal" class="badge" style="background-color: #0f2532;">Proyecto Grupal</span>
       </div>
     </div>
   </div>
@@ -430,8 +430,8 @@
   <!-- Medios de contactos-->
   <section id="Contacto" class="text-center" style="background-color: #0f2532;">
     <div class="container" data-aos="zoom-in" data-aos-delay="200">
-      <h1>Contactos</h1>
-      <p>¡Puedes contactame completando el siguiente formulario o también puedes visitar los enlaces!</p>
+      <h1 id="contactosTitulo">Contactos</h1>
+      <p id="contactosDesc">¡Puedes contactame completando el siguiente formulario o también puedes visitar los enlaces!</p>
       <div class="container my-5 container_formulario">
         <div class="row"> <!--shadow p-4 rounded-->
           
@@ -441,18 +441,18 @@
             <form id="contacto_form">
               <img src="imagenes/Mailbox-rafiki.svg" alt="slogan" class="img-fluid banner-img" style="width: 45%; height: 45%;">
               <div class="mb-3">
-                <label for="nombre" class="form-label">Nombre</label>
-                <input type="text" name="form_nombre" class="form-control custom-input" placeholder="Indica tu nombre completo">
+                <label id="nombreContacto" for="nombre" class="form-label">Nombre</label>
+                <input type="text" name="form_nombre" class="form-control custom-input" placeholder="">
               </div>
               <div class="mb-3">
-                <label for="nombre" class="form-label">Correo Electrónico</label>
-                <input type="email" name="form_correo" class="form-control custom-input" placeholder="ej: tucorreo@gmail.com">
+                <label id="correoContacto" for="nombre" class="form-label">Correo Electrónico</label>
+                <input type="email" name="form_correo" class="form-control custom-input" placeholder="">
               </div>
               <div class="mb-3">
-                <label for="nombre" class="form-label">Comentarios</label>
-                <textarea class="form-control custom-input" name="form_mensaje" rows="4" placeholder="Escribe lo que piensas..."></textarea>
+                <label id="comentariosContacto" for="nombre" class="form-label">Comentarios</label>
+                <textarea class="form-control custom-input" name="form_mensaje" rows="4" placeholder=""></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">Enviar</button>
+              <button id="enviarContacto" type="submit" class="btn btn-primary">Enviar</button>
             </form>
           </div>
           
@@ -460,13 +460,13 @@
         
 
           <div class="col-md-6 d-flex flex-column justify-content-center ps-md-5">
-            <h3 class="mb-3 h3_info-contacto">Información adicional de contacto:</h3>
+            <h3 id="infoContacto" class="mb-3 h3_info-contacto">Información adicional de contacto:</h3>
             <p><i class="bi bi-geo-alt me-2 icono"></i> Heredia, San Francisco Santa Cecilia, Costa Rica</p>
             <p><i class="bi bi-phone me-2 icono"></i> +506 86028795</p>
             <p><i class="bi bi-envelope-at-fill me-2 icono"></i> stephy44zzz@gmail.com</p>
             <br>
-            <h3 class="mb-3 h3_info-contacto">Enlaces:</h3>
-            <p><i class="bi bi-linkedin me-2 icono"></i><a href="https://www.linkedin.com/in/sthephanie-le%C3%B3n-vargas-9a8711352/"target="_blank">Linkedin</a></p>
+            <h3 id="enlaces" class="mb-3 h3_info-contacto">Enlaces:</h3>
+            <p><i class="bi bi-linkedin me-2 icono"></i><a href="https://www.linkedin.com/in/sthephanie-le%C3%B3n-vargas-9a8711352/"target="_blank">LinkedIn</a></p>
             <p><i class="bi bi-github me-2 icono"></i><a href="https://github.com/Sthephanie-Leon-Vargas"target="_blank">Github</a></p>
          
           </div>
@@ -477,7 +477,7 @@
 
   </section>
  <!-- Scroll Top-->
-  <button class="bi bi-arrow-bar-up" onclick="scrollToTop()" id="scrollTopBtn" title="Volver arriba"></button>
+  <button class="bi bi-arrow-bar-up" onclick="scrollToTop()" id="scrollTopBtn" title="Scroll Top"></button>
  <!-- Whatsapp-->
   <a href="https://walink.co/d842b5" title="Whatsapp" target=”_blank” class="whatsapp-btn">
     <i class="bi bi-whatsapp"></i>

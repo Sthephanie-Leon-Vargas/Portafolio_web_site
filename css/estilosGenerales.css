@@ -28,7 +28,7 @@ section {
 .navbar-brand img {
   border-radius: 8px;
   }
-  #opcion_menu{
+  #menu_perfil,#menu_habilidades,#menu_protectos,#menu_contactos,#txtSwitch{
       color:#00e2ff;
   }
 
