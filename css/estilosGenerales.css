@@ -28,7 +28,7 @@ section {
 .navbar-brand img {
   border-radius: 8px;
   }
-  #menu_perfil,#menu_habilidades,#menu_protectos,#menu_contactos,#txtSwitch{
+  #menu_inicio, #menu_perfil,#menu_habilidades,#menu_protectos,#menu_contactos,#txtSwitch{
       color:#00e2ff;
   }
 
@@ -321,3 +321,10 @@ a{
   transform: translateY(-50%);
 }
 
+.anim_banner{
+	width: 85%;
+}
+
+.anim_contacto{
+  width: 68%;
+}

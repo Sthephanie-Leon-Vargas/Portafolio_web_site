@@ -1,7 +1,7 @@
 const traducciones = {
     es: {
       titulo_banner: "¡Bienvenidos!",
-      nombre: "Soy Sthephanie León",
+      nombre: "Soy Sthephanie León Vargas",
       saludo: "Es un gusto que visites mi portafolio.",
       perfilProfesional: "Desarrolladora de aplicaciones de escritorio y web, especializada en el desarrollo Full-Stack, con experiencia en lenguaje Java, manejo de bases de datos relacionales como Oracle, Sql Server, MySQL, y creación de páginas con HTML y CSS.",
       perfilProfesionalTitulo: "Perfil Profesional",
@@ -19,8 +19,8 @@ const traducciones = {
       humildad:"Reconozco mis errores y acepto las retroalimentaciones que me puedan dar, para mejorar cada día.",
       perseveranciaTitulo:"Perseverancia",
       perseverancia:"Cumplir con los trabajos propuestos, incluso cuando hayan obstáculos en el camino o retos nuevos, siempre estoy dispuesta a seguir hasta el final para cumplir los objetivos.",
-      respetoTitulo:"Respeto",
-      respeto:"Mantener el respeto con todas las personas por igual, creando un espacio de trabajo positivo y en el que todos nos sentimos cómodos como equipo.",
+      //respetoTitulo:"Respeto",
+      //respeto:"Mantener el respeto con todas las personas por igual, creando un espacio de trabajo positivo y en el que todos nos sentimos cómodos como equipo.",
       habilidadesTitulo:"Habilidades",
       habilidadesDesc:"En esta sección puedes ver mis habilidades blandas y tecnicas que me caracterizan e implemento en mi día a día.",
       habilidadesBlandasT:"Habilidades Blandas",
@@ -52,6 +52,7 @@ const traducciones = {
       infoContacto:"Información adicional de contacto:",
       enlaces: "Enlaces",
       //barra menu
+      menu_inicio:"Inicio",
       menu_perfil:"Mi Perfil",
       menu_habilidades:"Habilidades",
       menu_protectos:"Proyectos",
@@ -59,7 +60,7 @@ const traducciones = {
     },
     en: {
       titulo_banner: "Welcome!",
-      nombre: "I am Sthephanie León",
+      nombre: "I am Sthephanie León Vargas",
       saludo: "It's a pleasure that you visit my portfolio.",
       perfilProfesional: "Desktop and web application developer, specializing in full-stack development, with experience in Java, relational database management such as Oracle, SQL Server, and MySQL, and page creation using HTML and CSS.",
       perfilProfesionalTitulo: "Professional Profile",
@@ -77,8 +78,8 @@ const traducciones = {
       humildad:"I acknowledge my mistakes and accept feedback so I can improve every day.",
       perseveranciaTitulo:"Perseverance",
       perseverancia:"To accomplish the proposed tasks, even when there are obstacles along the way or new challenges, I am always willing to follow through to the end to meet the objectives.",
-      respetoTitulo:"Respect",
-      respeto:"Maintain respect for everyone equally, creating a positive workspace where we all feel comfortable as a team.",
+      //respetoTitulo:"Respect",
+      //respeto:"Maintain respect for everyone equally, creating a positive workspace where we all feel comfortable as a team.",
       habilidadesTitulo:"Skills",
       habilidadesDesc:"In this section, you can see the soft and technical skills that define me and that I implement in my daily life.",
       habilidadesBlandasT:"Soft Skills",
@@ -110,6 +111,7 @@ const traducciones = {
       infoContacto:"Additional contact information:",
       enlaces: "Links:",
       //barra menu
+      menu_inicio:"Home",
       menu_perfil:"My Profile",
       menu_habilidades:"Skills",
       menu_protectos:"Projects",
