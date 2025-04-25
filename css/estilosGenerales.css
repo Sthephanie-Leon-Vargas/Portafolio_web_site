@@ -3,7 +3,7 @@ h1,h2 {
     color: #00e2ff;
 }
 
-h1,h2,h3,a,li,span,button{
+h1,h2,h3,h4,h5,a,li,span,button{
 
     font-family: 'Open Sans', sans-serif;
 }
@@ -198,12 +198,12 @@ color: #143447;
     border-radius: 8px;
     padding: 10px;
     color: #00e2ff;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     transition: border-color 0.3s, box-shadow 0.3s;
   }
   
   .custom-input:focus {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     border-color: #00e2ff;
     box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
     background-color: #0f2532;
@@ -219,23 +219,23 @@ color: #143447;
   }
 
   .custom-input::placeholder {
-    color: #ffffffa4; /* gris Bootstrap */
-    opacity: 1;     /* aseguramos que no sea transparente */
+    color: #ffffffa4; 
+    opacity: 1;
     font-style: italic;
   }
 
   input:-webkit-autofill,
   textarea:-webkit-autofill {
-    background-color: #143447 ;  /* tu color personalizado */
+    background-color: #143447 ;
     -webkit-box-shadow: 0 0 0px 1000px #143447 inset !important;
-    -webkit-text-fill-color: #00e2ff !important;  /* color del texto */
+    -webkit-text-fill-color: #00e2ff !important; 
     transition: background-color 5000s ease-in-out 0s;
   }
 
   /*iconos*/
   .icono {
-    color: #00e2ff; /* rosa fuerte por ejemplo */
-    font-size: 1.5rem; /* tamaño opcional */
+    color: #00e2ff;
+    font-size: 1.5rem; 
   }
 
 a{

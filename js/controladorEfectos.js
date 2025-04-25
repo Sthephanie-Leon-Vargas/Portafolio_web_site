@@ -37,8 +37,7 @@ window.onscroll = function () {
   }
 };
 
-// Scroll suave al inicio
-function scrollToTop() {
+function scrollTop() {
   window.scrollTo({
     top: 0,
     behavior: "smooth"
