@@ -62,7 +62,7 @@ const traducciones = {
       titulo_banner: "Welcome!",
       nombre: "I am Sthephanie León Vargas",
       saludo: "It's a pleasure that you visit my portfolio.",
-      perfilProfesional: "Desktop and web application developer, specializing in full-stack development, with experience in Java, relational database management such as Oracle, SQL Server, and MySQL, and page creation using HTML and CSS.",
+      perfilProfesional: "Systems Analyst with experience in software development and the programming of Oracle database objects using SQL/PLSQL, as well as knowledge of Java. I am currently involved in maintaining existing integrations and monitoring projects, in coordination with users and vendors.",
       perfilProfesionalTitulo: "Professional Profile",
       misionTitulo: "Mission",
       mision: "Satisfy user needs by creating efficient applications that facilitate tasks within the company, thus creating a positive impact on the improvement and innovation of the required processes.",

@@ -52,7 +52,7 @@ const languageImage = document.getElementById("img_slogan");
 checkboxIdioma.addEventListener("change", function () {
   if (!checkboxIdioma.checked) {
    
-    btnDescarga.href = "cv/CV_Espanol_SthephanieLeonVargas.pdf";
+    btnDescarga.href = "cv/CV_Espanol_Sthephanie_Leon_18102026.pdf";
     btnDescarga.textContent = " CV-ES";
     languageImage.src = "imagenes/slogan_banner01.png";
   } else {
