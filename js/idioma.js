@@ -3,7 +3,7 @@ const traducciones = {
       titulo_banner: "¡Bienvenidos!",
       nombre: "Soy Sthephanie León Vargas",
       saludo: "Es un gusto que visites mi portafolio.",
-      perfilProfesional: "Desarrolladora de aplicaciones de escritorio y web, especializada en el desarrollo Full-Stack, con experiencia en lenguaje Java, manejo de bases de datos relacionales como Oracle, Sql Server, MySQL, y creación de páginas con HTML y CSS.",
+      perfilProfesional: "Analista de Sistemas con experiencia en desarrollo de software y programación de objetos de base de datos Oracle mediante SQL/PLSQL, así como conocimientos en Java. Actualmente participo en el mantenimiento de integraciones existentes y en el seguimiento de proyectos, en coordinación con usuarios y proveedores.",
       perfilProfesionalTitulo: "Perfil Profesional",
       misionTitulo: "Misión",
       mision: "Satisfacer las necesidades de los usuarios, creando aplicaciones eficientes que faciliten las tareas dentro de la empresa, creando así un impacto positivo en la mejora e innovación de los procesos requeridos.",
